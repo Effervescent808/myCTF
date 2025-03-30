@@ -1,0 +1,7 @@
+The final flag seems to be hidden in their database, however the address to their server seems to have been corrupted during the file transfer. Can you make sense what is left?
+
+l_br__y_f_a__l.___o
+
+We also managed to grab another piece of information that could possibly be useful?
+
+9t - w2 - s5 - v22 - r12 - s2

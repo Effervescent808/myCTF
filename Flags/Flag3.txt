@@ -1,0 +1,5 @@
+Nope, no flag here. Try another way to "verify" the information in a file.
+
+Hint: (First 5 of ((((5*9)+(6*9/6))*4)+40))
+
+**It's simpler than you think
