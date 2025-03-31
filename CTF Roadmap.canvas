@@ -16,7 +16,7 @@
 		{"id":"85df050919adf670","type":"text","text":"#13 - Flag13.txt\n\nRiddle points to /map.txt on flag server","x":-500,"y":680,"width":250,"height":187},
 		{"id":"d93fb712b02cdc46","type":"text","text":"#14 - Flag14\n(64 - for base64 the flag) - Flag101\n\nLook at Exifdata for Photos and combine names in order (Epic + Stem + Microsoft) then base64 encode","x":-207,"y":680,"width":250,"height":260},
 		{"id":"47169f70fa1bca2b","type":"text","text":"#15 - Flag15.txt\nLibrary of Babble website\n\n2nd Capital letter of some flag to fill in the gaps of the URL\n\n 2(up arrow) / flag# - ... | string for Babble - ... |","x":95,"y":680,"width":250,"height":280},
-		{"id":"2d3dc41354f68257","x":-1020,"y":630,"width":400,"height":690,"type":"text","text":"## Flags\n\n1. NhdLqsc\n2. xxOEuUxXCD\n3. bc1e3\n4. ZwHWlHwz\n5. hpZJHBtCm\n6. ldErThbE\n7. gzvytPhy\n8. RrywBqpclg\n9. IhjvEjnBC\n10. HqWyVVQNf\n11. WExFul\n12. QkhpvHs\n13. qDmJjXkliy\n14. EpicStemMicrosoft\n15. tyjzji\n\n#### Combined\n\n- NhdLqscxxOEuUxXCDbc1e3ZwHWlHwzhpZJHBtCmldErThbEgzvytPhyRrywBqpclgIhjvEjnBCHqWyVVQNfWExFulQkhpvHsqDmJjXkliyEpicStemMicrosofttyjzji"}
+		{"id":"2d3dc41354f68257","type":"text","text":"## Flags\n\n1. NhdLqsc\n2. xxOEuUxXCD\n3. 7ec3d\n4. ZwHWlHwz\n5. hpZJHBtCm\n6. ldErThbE\n7. gzvytPhy\n8. RrywBqpclg\n9. IhjvEjnBC\n10. HqWyVVQNf\n11. WExFul\n12. QkhpvHs\n13. qDmJjXkliy\n14. EpicStemMicrosoft\n15. tyjzji\n\n#### Combined\n\n- NhdLqscxxOEuUxXCDbc1e3ZwHWlHwzhpZJHBtCmldErThbEgzvytPhyRrywBqpclgIhjvEjnBCHqWyVVQNfWExFulQkhpvHsqDmJjXkliyEpicStemMicrosofttyjzji","x":-1020,"y":630,"width":400,"height":690}
 	],
 	"edges":[
 		{"id":"708268591b7469a2","fromNode":"50e611622459edc8","fromSide":"right","toNode":"ca0bc159dc856bb6","toSide":"left"},
