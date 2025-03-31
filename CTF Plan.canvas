@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"id":"e1ade1b89578cb24","type":"text","text":"## TO - DO\n- [x] Write flag checker script\n- [x] Decide on how many parts - {15}\n\t- [x] Cat\n\t- [x] Grep\n\t- [x] HTTPD\n\t- [x] xxd\n\t- [x] sha256\n\t- [x] base64\n\t- [x] Tab in terminal\n\t- [x] hexadecimal\n\t- [x] Exif/Meta data\n\t- [x] md5 reverse lookup\n\t- [x] Substitution Cipher\n\t- [x] \"Riddle\".txt file on web server\n\t- [x] Picture of Mr. Ryan with geodata that leads somewhere as the final clue\n- [x] Setup HTTPD web server for distributing flags\n- [x] Theme: Hacking into a Crime Syndicate, The Enterprise for Pacific Intelligence Communications, (E.P.I.C)\n","x":-1020,"y":-120,"width":400,"height":720},
+		{"id":"ca0bc159dc856bb6","type":"text","text":"#2 - Flag2.txt\nCat the next file, grep for 'string'","x":-207,"y":-120,"width":250,"height":180},
+		{"id":"50e611622459edc8","type":"text","text":"#1 - Flag1.txt\nCat the file, text is the start of the flag","x":-500,"y":-120,"width":250,"height":180},
+		{"id":"5eb9cc6e111a000e","type":"text","text":"#3 - Flag3.txt\n\tFirst 5 characters of a sha256sum of a file, math equation","x":95,"y":-120,"width":250,"height":180},
+		{"id":"159e737ccb0ed477","type":"text","text":"#4 - Flag4.txt\nBase64 decode the file x 4\n\n","x":400,"y":-120,"width":250,"height":180},
+		{"id":"90fed8bd1e48a9a1","type":"text","text":"#5 - Flag5\nTab for autofill\n","x":-499,"y":140,"width":250,"height":180},
+		{"id":"01242acd6aed9d57","type":"text","text":"#6 - Flag6.txt\nHex dump and rearrange the values | E's are capital as red herring, and so the flag has 2 upper","x":-207,"y":140,"width":250,"height":180},
+		{"id":"129f6eee769316cc","type":"text","text":"#7 - Flag7.txt\nVigenere Cipher","x":95,"y":140,"width":250,"height":180},
+		{"id":"1331c1d050495430","type":"text","text":"#8 - Flag8.txt\nSearch through Webserver","x":400,"y":140,"width":250,"height":180},
+		{"id":"cfc20eafea47517e","type":"text","text":"#9 - Flag9.png\nLook at Exifdata - base64","x":-500,"y":413,"width":250,"height":187},
+		{"id":"6f210cb6d0f09ce5","type":"text","text":"#10 - Flag10.txt\nHex + ROT18","x":-207,"y":413,"width":250,"height":187},
+		{"id":"17c8dd07cbb55bc1","type":"text","text":"#11 - Flag11\nReverse md5 hashes to get passwords - 1.Password, 2.123456789, \n3.qwerty","x":95,"y":413,"width":250,"height":187},
+		{"id":"0f9eaec78fe21720","type":"text","text":"#12 - Flag12.txt\nSubstitution Cipher","x":400,"y":413,"width":250,"height":187},
+		{"id":"85df050919adf670","type":"text","text":"#13 - Flag13.txt\n\nRiddle points to /map.txt on flag server","x":-500,"y":680,"width":250,"height":187},
+		{"id":"d93fb712b02cdc46","type":"text","text":"#14 - Flag14\n(64 - for base64 the flag) - Flag101\n\nLook at Exifdata for Photos and combine names in order (Epic + Stem + Microsoft) then base64 encode","x":-207,"y":680,"width":250,"height":260},
+		{"id":"47169f70fa1bca2b","type":"text","text":"#15 - Flag15.txt\nLibrary of Babble website\n\n2nd Capital letter of some flag to fill in the gaps of the URL\n\n 2(up arrow) / flag# - ... | string for Babble - ... |","x":95,"y":680,"width":250,"height":280},
+		{"id":"2d3dc41354f68257","x":-1020,"y":630,"width":400,"height":690,"type":"text","text":"## Flags\n\n1. NhdLqsc\n2. xxOEuUxXCD\n3. bc1e3\n4. ZwHWlHwz\n5. hpZJHBtCm\n6. ldErThbE\n7. gzvytPhy\n8. RrywBqpclg\n9. IhjvEjnBC\n10. HqWyVVQNf\n11. WExFul\n12. QkhpvHs\n13. qDmJjXkliy\n14. EpicStemMicrosoft\n15. tyjzji\n\n#### Combined\n\n- NhdLqscxxOEuUxXCDbc1e3ZwHWlHwzhpZJHBtCmldErThbEgzvytPhyRrywBqpclgIhjvEjnBCHqWyVVQNfWExFulQkhpvHsqDmJjXkliyEpicStemMicrosofttyjzji"}
+	],
+	"edges":[
+		{"id":"708268591b7469a2","fromNode":"50e611622459edc8","fromSide":"right","toNode":"ca0bc159dc856bb6","toSide":"left"},
+		{"id":"c7ed8fabe30b63e3","fromNode":"5eb9cc6e111a000e","fromSide":"right","toNode":"159e737ccb0ed477","toSide":"left"},
+		{"id":"83fe8813a559832b","fromNode":"159e737ccb0ed477","fromSide":"bottom","toNode":"90fed8bd1e48a9a1","toSide":"top"},
+		{"id":"b5e333a666806c16","fromNode":"90fed8bd1e48a9a1","fromSide":"right","toNode":"01242acd6aed9d57","toSide":"left"},
+		{"id":"3465b9638373392f","fromNode":"129f6eee769316cc","fromSide":"right","toNode":"1331c1d050495430","toSide":"left"},
+		{"id":"fbc24942c99e2be0","fromNode":"1331c1d050495430","fromSide":"bottom","toNode":"cfc20eafea47517e","toSide":"top"},
+		{"id":"8f571fa50d903c3a","fromNode":"cfc20eafea47517e","fromSide":"right","toNode":"6f210cb6d0f09ce5","toSide":"left"},
+		{"id":"8ae8929038802ea5","fromNode":"ca0bc159dc856bb6","fromSide":"right","toNode":"5eb9cc6e111a000e","toSide":"left"},
+		{"id":"d5e58416ecddc772","fromNode":"6f210cb6d0f09ce5","fromSide":"right","toNode":"17c8dd07cbb55bc1","toSide":"left"},
+		{"id":"456dd569200a98ef","fromNode":"01242acd6aed9d57","fromSide":"right","toNode":"129f6eee769316cc","toSide":"left"},
+		{"id":"19cfcdb5bc10528c","fromNode":"17c8dd07cbb55bc1","fromSide":"right","toNode":"0f9eaec78fe21720","toSide":"left"},
+		{"id":"5177478fa4412292","fromNode":"0f9eaec78fe21720","fromSide":"bottom","toNode":"85df050919adf670","toSide":"top"},
+		{"id":"3e02c25380299f66","fromNode":"85df050919adf670","fromSide":"right","toNode":"d93fb712b02cdc46","toSide":"left"},
+		{"id":"de4c364146ec27b5","fromNode":"d93fb712b02cdc46","fromSide":"right","toNode":"47169f70fa1bca2b","toSide":"left"}
+	]
+}
