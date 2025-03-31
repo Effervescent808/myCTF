@@ -1,4 +1,4 @@
-#  Startup: (sudo systemctl start httpd, sudo setsebool -P httpd_can_network_connect on, ip a |grep 192.* | cut -d ' ' -f 6|cut -d '/' -f1)
+#  Startup: (sudo systemctl start httpd, ip a |grep 192.* | cut -d ' ' -f 6|cut -d '/' -f1)
 #
 # This is the main Apache HTTP server configuration file.  It contains the
 # configuration directives that give the server its instructions.
